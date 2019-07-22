@@ -1,5 +1,5 @@
 @load base/frameworks/intel
-@load base/bif/bro.bif
+@load base/bif/zeek.bif.zeek
 @load ./dronebl-dnsbl
 
 redef DroneBL::new_conn_check = T;

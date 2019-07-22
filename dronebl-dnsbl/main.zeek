@@ -1,7 +1,7 @@
 # Author: antipatico (github.com/antipatico)
 # Year: 2019
 # License: VRLFSC (read the file LICENSE.txt)
-@load base/bif/bro.bif
+@load base/bif/zeek.bif
 @load base/bif/strings.bif
 @load base/bif/event.bif
 @load base/bif/reporter.bif
@@ -49,7 +49,7 @@ function classify_intel(ip:addr, tc:ThreatClass) {
 }
 
 
-event bro_init() &priority=5
+event zeek_init() &priority=5
 {
 	Log::create_stream(LOG, [$columns=Info, $ev=log_dronebl, $path="dronebl"]);
 }

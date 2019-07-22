@@ -1,7 +1,7 @@
 # Author: antipatico (github.com/antipatico)
 # Year: 2019
 # License: VRLFSC (read the file LICENSE.txt)
-@load base/bif/bro.bif
+@load base/bif/zeek.bif
 @load base/bif/reporter.bif
 
 module DroneBL;

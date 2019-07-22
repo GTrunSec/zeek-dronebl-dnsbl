@@ -2,7 +2,7 @@
 # Year: 2019
 # License: VRLFSC (read the file LICENSE.txt)
 @load ./common.bro
-@load base/bif/bro.bif
+@load base/bif/zeek.bif
 @load base/bif/strings.bif
 @load base/bif/reporter.bif
 
